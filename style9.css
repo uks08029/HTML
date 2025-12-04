@@ -1,0 +1,23 @@
+.navigation1{
+    color:rgb(0, 255, 115);
+    background:rgb(250, 135, 225);
+    display:inline;
+    
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right:5px;
+    margin-top:50px;
+    padding:2px;
+
+}
+.navigation2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:rgb(0, 170, 255);
+    background:rgb(37, 236, 37);
+    display:inline;
+    padding:2px;
+
+}
