@@ -1,27 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>shop ease</title>
-</head>
-<body>
-    <div style="border: 2px solid black;  background-color: rgb(236, 248, 248);">
-    <div style="background-color: black; text-align: center; color:aliceblue; margin:4px;">
-        <h1>ShopEasy</h1>
-    </div>
-    <div style="margin-left:400px; margin-right: 400px; margin-bottom: 20px;  background-color: white;">
-        <div style="margin:5px;height: 120px; width: 220px;">
-           <img src="./tshirt.jpg" height="120px" width="190px" style="margin-left: 150px; ">
-        </div>
-        <h3 style="margin-left: 3px;">Classic Cotton T-Shirt</h3>
-        <p style="margin-left: 3px;">Soft, breathable cotton. Regular fit.Available in multiple colors</p>
-        <p style="margin-left: 3px; color: green; font-size: 22px; display: inline;"><b>&#8377;799</b></p> <p style="display:inline; color: grey;">&nbsp;&nbsp;&nbsp;<strike>&#8377;1,199</strike></p>
-        <div style="background-color: blue; color: white; text-align: center; margin-bottom: 5px; margin-top: 7px; padding: 5px; margin-left: 5px;margin-right: 5px; border-radius: 5px;">
-            <p>Add to Cart</p>
-        </div>
-    </div>
-    </div>
-
-</body>
-</html>
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>experiment_6</title> 
+<!--Linking CSS file--> 
+<link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+<h1>My E-Commerce Store</h1> 
+<!--Product Section--> 
+<div class="product-box"> 
+<!--Product Image--> 
+<img src="img.png" alt="Product Image"> 
+<!--Prroduct Details--> 
+<h2>Stylish T-Shirt</h2> 
+<p class="description">A comfortable cotton t-shirt perfect for casual 
+wear</p> 
+<p class="price">Price:₹499</p> 
+<button>Add to Cart</button> 
+</div> 
+</body> 
+</html> 
+/*Body Styling*/ 
+body{ 
+font-family:Arial, sans-serif; 
+background-color:#acaca0; 
+text-align:center; 
+margin:20px; 
+} 
+/*Heading Styling*/ 
+h1{ 
+color:black; 
+margin-bottom:30px; 
+} 
+/*Product Box Styling*/ 
+.product-box{ 
+background-color:rgb(255, 255, 255); 
+width:300px; 
+margin:0 auto; 
+padding:15px; 
+border:2px solid gray; 
+border-radius:8px; 
+} 
+/*Product Image Styling*/ 
+.product-box img{ 
+width:100%; 
+height:auto; 
+border-radius:5px; 
+} 
+/*Product Title*/ 
+.product-box h2{ 
+color:black; 
+font-size:20px; 
+margin-top:10px; 
+} 
+/*Product Description*/ 
+.description{ 
+color:dimgray; 
+font-size:14px; 
+margin:10px 0; 
+} 
+/*Price Styling*/ 
+.price{ 
+color:red; 
+font-weight:bold; 
+margin-bottom: 15px; 
+} 
+/*Buy Now Button Styling*/ 
+button{ 
+background-color: blue; 
+color:white; 
+padding:10px 20px; 
+border:none; 
+border-radius: 5px; 
+} 
+/*button hover effect*/ 
+button:hover{ 
+background-color:darkblue; 
+}
